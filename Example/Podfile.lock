@@ -1,20 +1,20 @@
 PODS:
-  - Google-Mobile-Ads-SDK (11.7.0):
+  - Google-Mobile-Ads-SDK (11.13.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationMenta (1.0.9):
+  - GoogleMobileAdsMediationMenta (1.0.19):
     - Google-Mobile-Ads-SDK
-    - MentaMediationGlobal (~> 1.0.9)
-    - MentaVlionGlobal (~> 1.0.9)
-    - MentaVlionGlobalAdapter (~> 1.0.9)
-  - GoogleUserMessagingPlatform (2.5.0)
-  - MentaBaseGlobal (1.0.9)
-  - MentaMediationGlobal (1.0.9):
-    - MentaBaseGlobal (~> 1.0.9)
-  - MentaVlionGlobal (1.0.9):
-    - MentaBaseGlobal (~> 1.0.9)
-  - MentaVlionGlobalAdapter (1.0.9):
-    - MentaMediationGlobal (~> 1.0.9)
-    - MentaVlionGlobal (~> 1.0.9)
+    - MentaMediationGlobal (~> 1.0.19)
+    - MentaVlionGlobal (~> 1.0.19)
+    - MentaVlionGlobalAdapter (~> 1.0.19)
+  - GoogleUserMessagingPlatform (2.7.0)
+  - MentaBaseGlobal (1.0.19)
+  - MentaMediationGlobal (1.0.19):
+    - MentaBaseGlobal (~> 1.0.19)
+  - MentaVlionGlobal (1.0.19):
+    - MentaBaseGlobal (~> 1.0.19)
+  - MentaVlionGlobalAdapter (1.0.19):
+    - MentaMediationGlobal (~> 1.0.19)
+    - MentaVlionGlobal (~> 1.0.19)
 
 DEPENDENCIES:
   - GoogleMobileAdsMediationMenta (from `../`)
@@ -33,13 +33,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 204b517c9765169144cf39763c7f5d23c57a9db0
-  GoogleMobileAdsMediationMenta: 8bcea039d482488f03a66783a3801157bb02e9ec
-  GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
-  MentaBaseGlobal: c9d89f30cf9931a49871e13ddc32f70182bb08e2
-  MentaMediationGlobal: f2ae37a0e5b7f783389fe81dee1d525a294d49b2
-  MentaVlionGlobal: 41b8d0d17ca8aec27b0b7b8653d7ee166dc591af
-  MentaVlionGlobalAdapter: 89f7cf18fdab11284db1054463a7b94682d87236
+  Google-Mobile-Ads-SDK: 14f57f2dc33532a24db288897e26494640810407
+  GoogleMobileAdsMediationMenta: 098b5a4f695b8a9656a9c3078e3680a1e376fd2e
+  GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
+  MentaBaseGlobal: 1ebff3e567d9f799f4d56dc51befde567576aebb
+  MentaMediationGlobal: 88e9baaaafda504411a29e1d96f5d64176eff26f
+  MentaVlionGlobal: a3e8053ed713c0c3b707179d65e00bcfc6beeef3
+  MentaVlionGlobalAdapter: d76ae0ae61834e1d217550b8aadef70d8dc17079
 
 PODFILE CHECKSUM: 72ece17a8554b72b45816bec469bb67fa55b7b54
 

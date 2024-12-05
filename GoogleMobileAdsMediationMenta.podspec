@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GoogleMobileAdsMediationMenta'
-  s.version          = '1.0.17'
+  s.version          = '1.0.19'
   s.summary          = 'Menta'
   s.description      = 'Menta with Admob'
   s.homepage         = 'https://github.com/jdy/AdmobDemo'
@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AdmobDemo/Classes/**/*'
   
-  s.dependency 'MentaVlionGlobal',         '~> 1.0.17'
-  s.dependency 'MentaMediationGlobal',     '~> 1.0.17'
-  s.dependency 'MentaVlionGlobal',         '~> 1.0.17'
-  s.dependency 'MentaVlionGlobalAdapter',  '~> 1.0.17'
+  s.dependency 'MentaVlionGlobal',         '~> 1.0.19'
+  s.dependency 'MentaMediationGlobal',     '~> 1.0.19'
+  s.dependency 'MentaVlionGlobal',         '~> 1.0.19'
+  s.dependency 'MentaVlionGlobalAdapter',  '~> 1.0.19'
   s.dependency 'Google-Mobile-Ads-SDK'
   
 end
