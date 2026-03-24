@@ -40,9 +40,9 @@
     
     [menta startWithAppID:jsonDic[@"appID"] appKey:jsonDic[@"appKey"] finishBlock:^(BOOL success, NSError * _Nullable error) {
         if (success) {
-            [[MentaLogger stdLogger] info:@"menta sdk init success"];
+            [[MentaLoggerGlobal stdLogger] info:@"menta sdk init success"];
         } else {
-            [[MentaLogger stdLogger] info:[NSString stringWithFormat:@"menta sdk init failure, %@", error.localizedDescription]];
+            [[MentaLoggerGlobal stdLogger] info:[NSString stringWithFormat:@"menta sdk init failure, %@", error.localizedDescription]];
         }
     }];
     completionHandler(nil);
